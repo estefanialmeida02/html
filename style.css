@@ -1,0 +1,27 @@
+body {
+    background-color: rgb(148, 124, 204);
+}
+
+.cabelos :hover{
+    color: blueviolet;
+}
+
+@media screen and (max-width: 380px) {
+    .caixa, .principal, .conteudo-beneficios, .mapa-conteudo, .video {
+        width: auto;
+    }
+
+    h1 {
+        text-align: center;
+    }
+
+    nav {
+        position: static;
+    }
+
+    .lista-beneficios, .imagem-beneficios {
+        width: 100%;
+    }
+} {
+    
+}
